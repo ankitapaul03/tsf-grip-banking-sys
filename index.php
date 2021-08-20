@@ -89,7 +89,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
                   <a href="customer.php" class="nav-link text-white">VIEW CUSTOMERS</a></li>
               <li class="nav-item">
                   <a href="contact.php" class="nav-link text-white">CONTACT</a></li>
-            </ul>
+          </ul>
         </div>
      </div>
 	 <br>

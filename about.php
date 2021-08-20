@@ -12,40 +12,46 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  .jumbotron {
+.jumbotron {
     //background-color: #f4511e;
 	 background-image:linear-gradient(to right, #2282A4, #459BB7,#8ACCDC,#8ACCDC,#2282A4,#2282A4);
     color: #fff;
     padding: 100px 25px;
 	font-family: 'Lora', serif;
+	height:100%;
   }
   .container-fluid {
     padding: 60px 50px;
 	font-family: 'Lora', serif;
   }
-  .bg-grey {
-    background-color: #f6f6f6;
-  }
   .logo-small {
     color: #2282A4;
     font-size: 50px;
-	font-family: 'Lora', serif;
   }
   .logo {
     color: #2282A4;
     font-size: 200px;
   }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-	  font-family: 'Lora', serif;
-    }
-  }
+.homebutton{
+    border:1px solid white;
+    border-radius:25px;
+    margin:0 50px;
+    padding: 10px 25px;
+    outline:none;
+    columns: #50d1c0;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+	font-family: 'Lora', serif;
+
+}
+
   </style>
 </head>
 <body>
-​
+<div class="navbar text-center" style="background-image:linear-gradient(to right, #2282A4, #459BB7,#8ACCDC,#8ACCDC,#2282A4,#2282A4)">
+									<a href="index.php" target="_blank" class="homebutton" role="button">GO TO HOMEPAGE</a>
 <div class="jumbotron text-center">
   <h1> THE WORLD BANK </h1>
   <h3><strong>What we do</strong></h3>
@@ -59,26 +65,14 @@
     </div>
   </form>
 </div>
-​
-<!-- Container (About Section)
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About Company Page</h2>
-      <h4>Lorem ipsum..</h4>
-      <p>Lorem ipsum..</p>
-      <button class="btn btn-default btn-lg">Get in Touch</button>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
-  </div>
-</div> -->
-​
+</div>
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
+		<div class="text-center">
+			<span class="glyphicon glyphicon-globe logo"></span>
+		</div>
+
     </div>
     <div class="col-sm-8">
       <h2>Our Values</h2>
@@ -91,42 +85,42 @@ By increasing the incomes of the poorest 40 percent of people in every country</
 ​
 <!-- Container (Services Section) -->
 <div class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2>OUR CORE VALUES</h2>
+  <h4></h4>
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-asterisk logo-small"></span>
+      <h4>EXCELLENCE</h4>
+      <p></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4>CUSTOMER FOCUS</h4>
+      <p></p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-fire logo-small"></span>
+      <h4>PRODUCT LEADERSHIP</h4>
+      <p></p>
     </div>
   </div>
   <br><br>
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-user logo-small"></span>
+      <h4>PEOPLE</h4>
+      <p></p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>SUSTAINABILITY</h4>
+      <p></p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4 style="color:#303030;">TEAMWORK</h4>
+      <p></p>
     </div>
   </div>
 </div>
