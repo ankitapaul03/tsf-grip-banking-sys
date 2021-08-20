@@ -51,7 +51,7 @@
 </head>
 <body>
 <div class="navbar text-center" style="background-image:linear-gradient(to right, #2282A4, #459BB7,#8ACCDC,#8ACCDC,#2282A4,#2282A4)">
-									<a href="index.php" target="_blank" class="homebutton" role="button">GO TO HOMEPAGE</a>
+									<a href="index.php" class="homebutton" role="button">GO TO HOMEPAGE</a>
 <div class="jumbotron text-center">
   <h1> THE WORLD BANK </h1>
   <h3><strong>What we do</strong></h3>

@@ -126,7 +126,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
                         <button type="submit" >Submit</button></div>
 								<br>
 								<div class="form-group text-center">
-									<a href="index.php" target="_blank" class="homebutton" role="button">GO TO HOMEPAGE</a>
+									<a href="index.php" class="homebutton" role="button">GO TO HOMEPAGE</a>
 								</div>
 						<br>
 						<br>
